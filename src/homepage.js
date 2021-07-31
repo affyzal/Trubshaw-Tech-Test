@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import logo from "./logo.svg";
+import HomeBar from "./homebar"
 
 const homepage = () => {
     return (
+
         <div className="App">
+            <HomeBar />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>

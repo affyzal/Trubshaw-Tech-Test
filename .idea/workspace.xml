@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="initialise router, homepage and created homebar component">
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="initialise homepage branch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
-      <workItem from="1627486388022" duration="5888000" />
+      <workItem from="1627486388022" duration="6406000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627692194835</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initialise homepage branch">
+      <created>1627692694632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627692694632</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit with cra" />
     <MESSAGE value="initialise router, homepage and created homebar component" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialise router, homepage and created homebar component" />
+    <MESSAGE value="initialise homepage branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialise homepage branch" />
   </component>
 </project>
