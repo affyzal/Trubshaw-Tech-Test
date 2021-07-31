@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="initial commit with cra">
-      <change afterPath="$PROJECT_DIR$/src/homepage.js" afterDir="false" />
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="cleaned up homebar">
+      <change afterPath="$PROJECT_DIR$/src/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +28,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vwwJLVnV871wjkOfLYabphO80C" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,6 +50,11 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\affyz\WebstormProjects\Trubshaw\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -72,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
-      <workItem from="1627486388022" duration="4787000" />
+      <workItem from="1627486388022" duration="10593000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -81,7 +88,42 @@
       <option name="project" value="LOCAL" />
       <updated>1627689588028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initialise router, homepage and created homebar component">
+      <created>1627691619499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627691619499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initialise router, homepage and created homebar component">
+      <created>1627692194835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627692194835</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initialise homepage branch">
+      <created>1627692694632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627692694632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added homebar to homepage">
+      <created>1627693311155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627693311155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cleaned up homebar">
+      <created>1627693656456</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627693656456</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +141,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit with cra" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit with cra" />
+    <MESSAGE value="initialise router, homepage and created homebar component" />
+    <MESSAGE value="initialise homepage branch" />
+    <MESSAGE value="added homebar to homepage" />
+    <MESSAGE value="cleaned up homebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up homebar" />
   </component>
 </project>
