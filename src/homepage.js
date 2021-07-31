@@ -12,25 +12,115 @@ import Container from '@material-ui/core/Container';
 import Fab from '@material-ui/core/Fab';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Zoom from '@material-ui/core/Zoom';
+import MenuItem from '@material-ui/core/MenuItem';
 
-function homepage(props) {
+const risks = [
+    {
+        value: 'low',
+        label: 'Low Risk',
+    },
+    {
+        value: 'medium',
+        label: 'Medium Risk',
+    },
+    {
+        value: 'high',
+        label: 'High Risk',
+    },
+];
 
+function initialQuestion(){
+    console.log('run function')
+    return "What is your name?(2-25 characters)"
+}
+
+function initialTxtfield(){
+    return "outlined"
+}
+
+function initialRisk(){
+    return "low"
+}
+
+function initialQuestion3(){
+    return false
+}
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        '& .MuiTextField-root': {
+            margin: theme.spacing(1),
+            width: '25ch',
+        },
+    },
+}));
+
+function Homepage() {
+    const classes = useStyles();
+
+    const [question, setQuestion] = useState(() => initialQuestion())
+    const [txtfieldvariant, setTxtfieldvaraint] = useState(() => initialTxtfield())
+    const [question3, setQuestion3] = useState(() => initialQuestion3())
+    const [risk, setRisk] = useState(() => initialRisk())
+
+
+
+    const handleRisk = (event) => {
+        setRisk(event.target.value);
+    };
+
+    let TxtField;
+
+    if (question3) {
+        TxtField = <TextField
+            id="outlined-select-currency"
+            select
+            label="Select"
+            value={risk}
+            onChange={handleRisk}
+            helperText="What level of threat are you reporting?"
+            variant="outlined"
+        >
+            {risks.map((option) => (
+                <MenuItem key={option.value} value={option.value}>
+                    {option.label}
+                </MenuItem>
+            ))}
+        </TextField>;
+    } else {
+        TxtField = <TextField id="outlined-basic" label={question} variant={txtfieldvariant}/>
+    }
+
+    function nextQuestion() {
+        if (question == ("What is your name?(2-25 characters)")) {
+            setQuestion("What is your email?")
+        }
+        else if (question == ("What is your email?")) {
+            setQuestion("What level of threat are you recording?")
+            setQuestion3(true)
+        }
+        else if (question == ("What level of threat are you recording?")) {
+            setQuestion("What is your name?(2-25 characters)")
+            setQuestion3(false)
+        }
+    }
     return (
         <div>
             <HomeBar />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <form noValidate autoComplete="off">
-                    <TextField id="outlined-basic" label="What is your name?(2-25 characters)" variant="outlined" />
+                    {TxtField}
                 </form>
-                <Typography display="block"> My text will be on the next line </Typography>
-                <Button variant="contained" color="primary" onClick={() => { alert('clicked')}}>
+                <Typography display="block"> My button will be on the next line </Typography>
+                <Button variant="contained" color="primary" onClick={nextQuestion}>
                     Next
                 </Button>
             </header>
-</div>
+        </div>
+
 
     )
 }
 
-export default homepage;
+export default Homepage;
