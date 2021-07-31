@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="added hooks and converted textfield to functional component">
-      <change afterPath="$PROJECT_DIR$/src/UserForm.js" afterDir="false" />
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="restructuring">
+      <change afterPath="$PROJECT_DIR$/src/Confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FormEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FormName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FormRisk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Success.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
       <workItem from="1627486388022" duration="20504000" />
-      <workItem from="1627759929861" duration="7541000" />
+      <workItem from="1627759929861" duration="7672000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -151,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627755907149</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="restructuring">
+      <created>1627774996014</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627774996014</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +186,7 @@
     <MESSAGE value="cleaned up homebar" />
     <MESSAGE value="Homepage UX implemented" />
     <MESSAGE value="added hooks and converted textfield to functional component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hooks and converted textfield to functional component" />
+    <MESSAGE value="restructuring" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructuring" />
   </component>
 </project>
