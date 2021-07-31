@@ -15,7 +15,7 @@ const homepage = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn Reac
+                    Learn React Programming
                 </a>
             </header>
         </div>

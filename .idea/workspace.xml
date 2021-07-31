@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="initial commit with cra">
-      <change afterPath="$PROJECT_DIR$/src/homepage.js" afterDir="false" />
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="initialise router, homepage and created homebar component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
-      <workItem from="1627486388022" duration="4787000" />
+      <workItem from="1627486388022" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -81,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627689588028</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initialise router, homepage and created homebar component">
+      <created>1627691619499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627691619499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initialise router, homepage and created homebar component">
+      <created>1627692194835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627692194835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit with cra" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit with cra" />
+    <MESSAGE value="initialise router, homepage and created homebar component" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialise router, homepage and created homebar component" />
   </component>
 </project>
