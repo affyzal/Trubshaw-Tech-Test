@@ -13,6 +13,12 @@ import Fab from '@material-ui/core/Fab';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Zoom from '@material-ui/core/Zoom';
 import MenuItem from '@material-ui/core/MenuItem';
+import FilledInput from '@material-ui/core/FilledInput';
+import FormControl from '@material-ui/core/FormControl';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import Input from '@material-ui/core/Input';
+import InputLabel from '@material-ui/core/InputLabel';
+import OutlinedInput from '@material-ui/core/OutlinedInput';
 
 const risks = [
     {
@@ -62,8 +68,11 @@ function Homepage() {
     const [txtfieldvariant, setTxtfieldvaraint] = useState(() => initialTxtfield())
     const [question3, setQuestion3] = useState(() => initialQuestion3())
     const [risk, setRisk] = useState(() => initialRisk())
+    const [name, setName] = React.useState('Enter');
 
-
+    const handleChange = (event) => {
+        setName(event.target.value);
+    };
 
     const handleRisk = (event) => {
         setRisk(event.target.value);
@@ -88,12 +97,16 @@ function Homepage() {
             ))}
         </TextField>;
     } else {
-        TxtField = <TextField id="outlined-basic" label={question} variant={txtfieldvariant}/>
+        TxtField = <FormControl variant="outlined">
+            <InputLabel htmlFor="component-outlined">{question}</InputLabel>
+            <OutlinedInput id="component-outlined" value={name} onChange={handleChange} label="Name" />
+        </FormControl>
     }
 
     function nextQuestion() {
         if (question == ("What is your name?(2-25 characters)")) {
             setQuestion("What is your email?")
+
         }
         else if (question == ("What is your email?")) {
             setQuestion("What level of threat are you recording?")
@@ -109,7 +122,7 @@ function Homepage() {
             <HomeBar />
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <form noValidate autoComplete="off">
+                <form inputnoValidate autoComplete="off">
                     {TxtField}
                 </form>
                 <Typography display="block"> My button will be on the next line </Typography>
