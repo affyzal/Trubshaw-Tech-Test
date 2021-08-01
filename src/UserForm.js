@@ -14,6 +14,7 @@ export class UserForm extends Component {
     risk: '',
   };
 
+
   // Proceed to next step
   nextStep = () => {
     const { step } = this.state;
