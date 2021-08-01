@@ -6,12 +6,19 @@ import { List, ListItem, ListItemText } from '@material-ui/core/';
 import Button from '@material-ui/core/Button';
 
 export class Confirm extends Component {
+  /**
+   * @param e: event(on click next button)
+   * steps application back to success page
+   */
   continue = e => {
     e.preventDefault();
-    // PROCESS FORM //
     this.props.nextStep();
   };
 
+  /**
+   * @param e: event(on click back button)
+   * steps application back to previous question
+   */
   back = e => {
     e.preventDefault();
     this.props.prevStep();
@@ -22,14 +29,13 @@ export class Confirm extends Component {
       values: { firstName, email, risk}
     } = this.props;
     return (
-      <MuiThemeProvider>
         <>
           <Dialog
             open
             fullWidth
             maxWidth='sm'
           >
-            <h1 align="center">Trubshaw Tech Test</h1>
+            <h1 align="center">Preview</h1>
             <List>
               <ListItem>
                 <ListItemText primary="What is your Name?" secondary={firstName} />
@@ -59,7 +65,6 @@ export class Confirm extends Component {
             >Confirm & Continue</Button>
           </Dialog>
         </>
-      </MuiThemeProvider>
     );
   }
 }

@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import Dialog from '@material-ui/core/Dialog';
-import AppBar from '@material-ui/core/AppBar';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import validator from 'validator'
 
 export class FormEmail extends Component {
+  /**
+   * @param e: event(on click next button)
+   * validates email input prior to moving to next step. disables moving to next step until email entry is valid.
+   */
   continue = e => {
     e.preventDefault();
     let valid = false
     const temp = this.props.values.email;
-    if (validator.isEmail(temp)) {
+    if (validator.isEmail(temp)) {          //validate email using validator module
       valid = true;
     }
     if (valid) {
@@ -19,6 +22,10 @@ export class FormEmail extends Component {
     }
   };
 
+  /**
+   * @param e: event(on click back button)
+   * steps application back to previous question
+   */
   back = e => {
     e.preventDefault();
     this.props.prevStep();
@@ -27,7 +34,6 @@ export class FormEmail extends Component {
   render() {
     const { values, handleChange } = this.props;
     return (
-      <MuiThemeProvider>
         <>
           <Dialog
             open
@@ -35,7 +41,7 @@ export class FormEmail extends Component {
             maxWidth='sm'
             margin='auto'
           >
-            <h1 align="center">Trubshaw Tech Test</h1>
+            <h1 align="center">What is your email?</h1>
             <TextField
                 placeholder="What is your email?"
                 label="Email"
@@ -45,22 +51,22 @@ export class FormEmail extends Component {
                 margin="normal"
                 fullWidth
                 required
+                helperText="Enter a valid email"
             />
 
-            <Button
+            <Button   //back step button
               color="secondary"
               variant="contained"
               onClick={this.back}
             >Back</Button>
 
-            <Button
+            <Button     //next step button
               color="primary"
               variant="contained"
               onClick={this.continue}
             >Continue</Button>
           </Dialog>
         </>
-      </MuiThemeProvider>
     );
   }
 }

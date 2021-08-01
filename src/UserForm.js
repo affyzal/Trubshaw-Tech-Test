@@ -6,7 +6,11 @@ import RiskInput from './FormRisk';
 import Confirm from './Confirm';
 import Success from './Success';
 
+/**
+ * Parent Class for form component
+ */
 export class UserForm extends Component {
+  //JSON structure for the required data to be stored
   state = {
     step: 1,
     firstName: '',
@@ -15,7 +19,7 @@ export class UserForm extends Component {
   };
 
 
-  // Proceed to next step
+  // Proceed to next question
   nextStep = () => {
     const { step } = this.state;
     this.setState({
@@ -23,7 +27,7 @@ export class UserForm extends Component {
     });
   };
 
-  // Go back to prev step
+  // Go back to prev question
   prevStep = () => {
     const { step } = this.state;
     this.setState({
@@ -31,7 +35,7 @@ export class UserForm extends Component {
     });
   };
 
-  // Handle fields change
+  // Handle data change on input event
   handleChange = input => e => {
     this.setState({ [input]: e.target.value });
   };
@@ -41,7 +45,9 @@ export class UserForm extends Component {
     const { firstName, email, risk } = this.state;
     const values = { firstName, email, risk};
 
+    //use switch to step between each question with regards to this.state.step
     switch (step) {
+      //step 1 shows what is your name question
       case 1:
         return (
           <FormName
@@ -50,6 +56,7 @@ export class UserForm extends Component {
             values={values}
           />
         );
+        //step 2 shows what is your email question
       case 2:
         return (
           <FormEmail
@@ -59,6 +66,7 @@ export class UserForm extends Component {
             values={values}
           />
         );
+        //step 3 shows what level of threat are you reporting question
       case 3:
         return (
             <RiskInput
@@ -68,6 +76,7 @@ export class UserForm extends Component {
                 values={values}
             />
         );
+        //step 4 shows preview page
       case 4:
         return (
           <Confirm
@@ -76,12 +85,11 @@ export class UserForm extends Component {
             values={values}
           />
         );
+        //step 5 shows confirmed page
       case 5:
         return <Success
             prevStep={this.prevStep}
         />;
-      default:
-        (console.log('This is a multi-step form built with React.'))
     }
   }
 }

@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="validate for character limit complete">
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="grammar errors">
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Confirm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Confirm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FormEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormName.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FormRisk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormRisk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Success.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Success.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/homebar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="cleanup" />
         <entry key="$PROJECT_DIR$" value="q1-logic" />
       </map>
     </option>
@@ -91,6 +97,8 @@
         <item itemvalue="Node.js.FormName.js" />
         <item itemvalue="Node.js.FormName.js" />
         <item itemvalue="Node.js.FormName.js" />
+        <item itemvalue="Node.js.FormName.js" />
+        <item itemvalue="Node.js.FormName.js" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
       <workItem from="1627486388022" duration="20504000" />
-      <workItem from="1627759929861" duration="19095000" />
+      <workItem from="1627759929861" duration="31124000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -224,7 +232,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627784066837</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="email validation implemented">
+      <created>1627787373198</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1627787373198</updated>
+    </task>
+    <task id="LOCAL-00019" summary="grammar errors">
+      <created>1627838645793</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1627838645793</updated>
+    </task>
+    <task id="LOCAL-00020" summary="grammar errors">
+      <created>1627838762460</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627838762460</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +288,8 @@
     <MESSAGE value="fixed navigation on end page" />
     <MESSAGE value="added required validation to eliminate empty inputs" />
     <MESSAGE value="validate for character limit complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate for character limit complete" />
+    <MESSAGE value="email validation implemented" />
+    <MESSAGE value="grammar errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="grammar errors" />
   </component>
 </project>
