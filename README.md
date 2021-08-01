@@ -20,3 +20,5 @@ The application has been deployed with firebase hosting at
 
 ### https://trubshaw-test.web.app/
 
+Open the above link on a web browser to run the application. Navigate through application as desired.
+
