@@ -9,15 +9,15 @@ import MenuItem from '@material-ui/core/MenuItem';
 
 const risks = [
   {
-    value: 'low',
+    value: 'Low',
     label: 'Low',
   },
   {
-    value: 'medium',
+    value: 'Medium',
     label: 'Medium',
   },
   {
-    value: 'high',
+    value: 'High',
     label: 'High',
   }
 ];
@@ -50,7 +50,7 @@ export class FormPersonalDetails extends Component {
                 id="standard-select-currency"
                 select
                 label="Select"
-                value="risk"
+                value={risks.label}
                 onChange={handleChange('risk')}
                 helperText="What level of threat are you reporting?"
             >
