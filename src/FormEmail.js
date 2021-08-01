@@ -4,11 +4,19 @@ import AppBar from '@material-ui/core/AppBar';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import validator from 'validator'
 
 export class FormEmail extends Component {
   continue = e => {
     e.preventDefault();
-    this.props.nextStep();
+    let valid = false
+    const temp = this.props.values.email;
+    if (validator.isEmail(temp)) {
+      valid = true;
+    }
+    if (valid) {
+      this.props.nextStep();
+    }
   };
 
   back = e => {
@@ -25,11 +33,13 @@ export class FormEmail extends Component {
             open
             fullWidth
             maxWidth='sm'
+            margin='auto'
           >
             <h1 align="center">Trubshaw Tech Test</h1>
             <TextField
                 placeholder="What is your email?"
                 label="Email"
+                type="email"
                 onChange={handleChange('email')}
                 defaultValue={values.email}
                 margin="normal"
