@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Trubshaw Coding Test
 
-##Development mode
+## Development mode
 
 In the project directory, you can run:
 
