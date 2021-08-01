@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="fixed dropdown visibility">
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="fixed navigation on end page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Success.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Success.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormEmail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormEmail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormName.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
       <workItem from="1627486388022" duration="20504000" />
-      <workItem from="1627759929861" duration="11726000" />
+      <workItem from="1627759929861" duration="11954000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627778608015</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed navigation on end page">
+      <created>1627779933282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627779933283</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +239,7 @@
     <MESSAGE value="basic form with preview working" />
     <MESSAGE value="drop down risk input working" />
     <MESSAGE value="fixed dropdown visibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed dropdown visibility" />
+    <MESSAGE value="fixed navigation on end page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed navigation on end page" />
   </component>
 </project>

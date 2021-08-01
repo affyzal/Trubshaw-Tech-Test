@@ -34,6 +34,7 @@ export class FormEmail extends Component {
                 defaultValue={values.email}
                 margin="normal"
                 fullWidth
+                required
             />
 
             <Button

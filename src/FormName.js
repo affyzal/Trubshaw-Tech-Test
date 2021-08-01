@@ -29,6 +29,7 @@ export class FormName extends Component {
               defaultValue={values.firstName}
               margin="normal"
               fullWidth
+              required
             />
             <br />
             <Button
