@@ -5,11 +5,23 @@ import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
+
+
 export class FormName extends Component {
   continue = e => {
+    console.log(this.props)
     e.preventDefault();
-    this.props.nextStep();
+    let valid = false
+    const temp = this.props.values.firstName;
+    if(temp.length > 2 && temp.length < 26){
+      valid = true
+    }
+    if (valid) {
+      this.props.nextStep();
+    }
+
   };
+
 
   render() {
     const { values, handleChange } = this.props;
@@ -29,6 +41,7 @@ export class FormName extends Component {
               defaultValue={values.firstName}
               margin="normal"
               fullWidth
+              required
             />
             <br />
             <Button

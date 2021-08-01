@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Dialog from '@material-ui/core/Dialog';
 import AppBar from '@material-ui/core/AppBar';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
+import Button from "@material-ui/core/Button";
 
 export class Success extends Component {
   continue = e => {
@@ -26,6 +27,11 @@ export class Success extends Component {
           >
             <h1>Thank You For Your Submission</h1>
             <p>You will get an email with further instructions.</p>
+            <Button
+                color="secondary"
+                variant="contained"
+                onClick={this.back}
+            >Back</Button>
           </Dialog>
         </>
       </MuiThemeProvider>

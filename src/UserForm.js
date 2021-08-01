@@ -14,6 +14,7 @@ export class UserForm extends Component {
     risk: '',
   };
 
+
   // Proceed to next step
   nextStep = () => {
     const { step } = this.state;
@@ -76,7 +77,9 @@ export class UserForm extends Component {
           />
         );
       case 5:
-        return <Success />;
+        return <Success
+            prevStep={this.prevStep}
+        />;
       default:
         (console.log('This is a multi-step form built with React.'))
     }

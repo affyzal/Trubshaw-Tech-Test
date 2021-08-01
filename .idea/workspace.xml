@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="drop down risk input working">
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="added required validation to eliminate empty inputs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormRisk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormRisk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <recent name="C:\Users\affyz\WebstormProjects\Trubshaw\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.FormName.js">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -86,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.FormName.js" />
+        <item itemvalue="Node.js.FormName.js" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
       <workItem from="1627486388022" duration="20504000" />
-      <workItem from="1627759929861" duration="10222000" />
+      <workItem from="1627759929861" duration="15751000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -184,7 +188,35 @@
       <option name="project" value="LOCAL" />
       <updated>1627776886452</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed dropdown visibility">
+      <created>1627777824205</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1627777824205</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed dropdown visibility">
+      <created>1627778608015</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1627778608015</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixed navigation on end page">
+      <created>1627779933282</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627779933283</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added required validation to eliminate empty inputs">
+      <created>1627780171186</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627780171187</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +247,9 @@
     <MESSAGE value="restructure and basic form setup" />
     <MESSAGE value="basic form with preview working" />
     <MESSAGE value="drop down risk input working" />
-    <option name="LAST_COMMIT_MESSAGE" value="drop down risk input working" />
+    <MESSAGE value="fixed dropdown visibility" />
+    <MESSAGE value="fixed navigation on end page" />
+    <MESSAGE value="added required validation to eliminate empty inputs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added required validation to eliminate empty inputs" />
   </component>
 </project>
