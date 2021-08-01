@@ -25,7 +25,16 @@ const risks = [
 export class FormPersonalDetails extends Component {
   continue = e => {
     e.preventDefault();
-    this.props.nextStep();
+    let valid = false
+    const temp = this.props.values.risk;
+    console.log(temp)
+
+    if(temp == "Low" || temp == "Medium" || temp == "High"){
+      valid = true
+    }
+    if (valid) {
+      this.props.nextStep();
+    }
   };
 
   back = e => {
