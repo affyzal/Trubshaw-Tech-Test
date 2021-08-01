@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="restructure and basic form setup">
+    <list default="true" id="e9fd5e10-5c74-443e-9d3e-ba06ba4b48fe" name="Default Changelist" comment="drop down risk input working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormRisk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormRisk.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="master" />
         <entry key="$PROJECT_DIR$" value="q1-logic" />
       </map>
     </option>
@@ -96,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627486385762</updated>
       <workItem from="1627486388022" duration="20504000" />
-      <workItem from="1627759929861" duration="8208000" />
+      <workItem from="1627759929861" duration="10222000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with cra">
       <created>1627689588028</created>
@@ -168,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627775170698</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="basic form with preview working">
+      <created>1627775707735</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627775707735</updated>
+    </task>
+    <task id="LOCAL-00012" summary="drop down risk input working">
+      <created>1627776886452</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627776886452</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +213,8 @@
     <MESSAGE value="added hooks and converted textfield to functional component" />
     <MESSAGE value="restructuring" />
     <MESSAGE value="restructure and basic form setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="restructure and basic form setup" />
+    <MESSAGE value="basic form with preview working" />
+    <MESSAGE value="drop down risk input working" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop down risk input working" />
   </component>
 </project>

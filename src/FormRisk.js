@@ -4,6 +4,23 @@ import AppBar from '@material-ui/core/AppBar';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import MenuItem from '@material-ui/core/MenuItem';
+
+
+const risks = [
+  {
+    value: 'Low',
+    label: 'Low',
+  },
+  {
+    value: 'Medium',
+    label: 'Medium',
+  },
+  {
+    value: 'High',
+    label: 'High',
+  }
+];
 
 export class FormPersonalDetails extends Component {
   continue = e => {
@@ -16,8 +33,10 @@ export class FormPersonalDetails extends Component {
     this.props.prevStep();
   };
 
+
   render() {
     const { values, handleChange } = this.props;
+
     return (
       <MuiThemeProvider>
         <>
@@ -28,13 +47,19 @@ export class FormPersonalDetails extends Component {
           >
             <h1 align="center">Trubshaw Tech Test</h1>
             <TextField
-                placeholder="What level of threat are you reporting?"
-                label="Risk"
+                id="standard-select-currency"
+                select
+                label="Select"
+                value={risks.label}
                 onChange={handleChange('risk')}
-                defaultValue={values.risk}
-                margin="normal"
-                fullWidth
-            />
+                helperText="What level of threat are you reporting?"
+            >
+              {risks.map((option) => (
+                  <MenuItem key={option.value} value={option.value}>
+                    {option.label}
+                  </MenuItem>
+              ))}
+            </TextField>
 
             <Button
               color="secondary"
